@@ -2,11 +2,17 @@
 
 Proyecto de aplicación de complejidad avanzada de Taller de Programación Web
 
-## Proyecto Final Desarrollo Web en Host Gratuito
+## Proyecto Final Desarrollo Web en 000webhost una plataforma de Hosting gratuito.
 
-### Para utilizar la aplicación completamente ingrese al [Link](https://proyecto-final-cristhian-mamani.000webhostapp.com/app/proyecto_final_desarrollo_web/index.html)
+### Para utilizar la aplicación web completamente, ingrese al [Link](https://proyecto-final-cristhian-mamani.000webhostapp.com/app/proyecto_final_desarrollo_web/index.html)
 
 * Registresé e inicié sesion para acceder al contenido
+
+## Proyecto Final Desarrollo Web en GitHub Pages
+
+### Ver la aplicacion web solo frontend, ingrese al [Link](https://cristhianvk.github.io/Proyecto-Final-Desarrollo-Web./)
+
+* Aquí solo podras observar desde el lado del frontend, mas no desde el backend, no podras registrarte o iniciar sesión
 
 ## Configura tu proyecto
 
@@ -17,3 +23,5 @@ $db_user = "username";
 $db_pass = "password";
 $db_name = "database";
 ```
+
+* Puedes importar la base de datos o ejecutar los comandos del archivo `sql/proy_taller.sql`
