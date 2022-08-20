@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="author" content="Cristhian Jonathan Mamani Julliri">
+   <title>Desarrollo Web.</title>
+   <link rel="icon" type="image/png" href="./images/icons8-backend-development-32.png" >
+   <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+   <a name="inicio"></a>
+   <header class="hero">
+      <nav class="nav nav__container">
+         <div class="nav__logo">
+            <h2 class="nav__title"><a href="#inicio" class="nav__links">Desarrollo Web.</a></h2>
+         </div>
+         <ul class="nav__link nav__link--menu">
+            <li class="nav__items">
+               <a href="#inicio" class="nav__links">Inicio</a>
+            </li>
+            <li class="nav__items">
+               <a href="#about" class="nav__links">Acerca de</a>
+            </li>
+            <li class="nav__items">
+               <a href="#team" class="nav__links">Equipo</a>
+            </li>
+            <li class="nav__items">
+               <a href="#contact" class="nav__links">Contacto</a>
+            </li>
+            <li class="nav__items">
+               <a href="./html/login.html" class="nav__links nav__links--login">Iniciar Sesión</a>
+            </li>
+            <li class="nav__items">
+               <a href="./html/registro.html" class="nav__links nav__links--registro">Regístrate</a>
+            </li>
+            <img src="./images/close.svg" alt="close" class="nav__close">
+         </ul>
+
+         <div class="nav__menu">
+            <img src="./images/menu.svg" alt="menu" class="nav_img">
+         </div>
+      </nav>
+
+      <!-- Slider main container -->
+      <div class="swiper">
+         <!-- Additional required wrapper -->
+         <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+               <img src="images/software-developer-6521720_1920.jpg" alt="Desarrollador Web trabajando en una PC">
+            </div>
+            <div class="swiper-slide">
+               <img src="images/andy-holmes-webyw4NsFPg-unsplash.jpg" alt="Desarrollador viendo codigo en pantalla">
+            </div>
+            <div class="swiper-slide">
+               <img src="images/clement-helardot-95YRwf6CNw8-unsplash.jpg" alt="Laptop con codigo en su pantalla">
+            </div>
+            <div class="swiper-slide">
+               <img src="images/campaign-creators-iEiUITs149M-unsplash.jpg" alt="Desarrollador viendo pagina web en pantalla">
+            </div>
+         </div>
+         <!-- If we need pagination -->
+         <div class="swiper-pagination"></div>
+
+         <!-- If we need navigation buttons -->
+         <div class="swiper-button-prev"></div>
+         <div class="swiper-button-next"></div>
+
+         <!-- If we need scrollbar -->
+         <div class="swiper-scrollbar"></div>
+      </div>
+
+      <section class="hero__container container">
+         <h1 class="hero__title">Aprende Desarrollo Web hasta dominarlo.</h1>
+         <p class="hero__paragraph">Elige aprender HTML 5 , CSS 3 y JavaScript de una vez por todas, una vez que termines este curso serás capaz de realizar la estructura, diseño y funcionalidad de las paginas web.</p>
+         <a href="./html/login.html" class="cta">Comienza ahora</a>
+      </section>
+   </header>
+
+   <main class="main">
+      <a name="about"></a>
+      <section class="container about">
+         <h2 class="subtitle">¿Qué aprenderás en este curso?</h2>
+         <p class="about__paragraph">Todo lo necesario y obligatorio de HTML, CSS y JavaScript, realizar la maquetacion de  sitios web y asi asentar las bases del Desarrollo Web y estar preparado para profundizar en el campo.</p>
+
+         <div class="about__main">
+            <article class="about__icons">
+               <img src="./images/html5.svg" alt="html5" class="about__icon">
+               <h3 class="about__title">HTML 5</h3>
+               <p class="about__paragraph">Lenguaje de marcado HTML5 utilizado en el desarrollo web para crear el contenido y la estructura de una página web.</p>
+            </article>
+
+            <article class="about__icons">
+               <img src="./images/css3.svg" alt="css3" class="about__icon">
+               <h3 class="about__title">CSS 3</h3>
+               <p class="about__paragraph">CSS es un lenguaje de diseño gráfico que permite definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado.</p>
+            </article>
+
+            <article class="about__icons">
+               <img src="./images/javascript.svg" alt="javascript" class="about__icon">
+               <h3 class="about__title">JavaScript</h3>
+               <p class="about__paragraph">JavaScript es el lenguaje de programación encargado de dotar de mayor interactividad y dinamismo a las páginas web.</p>
+            </article>
+         </div>
+      </section>
+
+      <section class="knowledge">
+         <div class="knowledge__container container">
+            <div class="knowledege__texts">
+               <h2 class="subtitle">Curso completo de Desarrollo Web. ¡Domina HTML 5, CSS 3 y JavaScript de una vez por todas!</h2>
+               <p class="knowledge__paragraph">El desarrollo web es el proceso de creación y mantenimiento de sitios web. Puede implicar una amplia gama de acciones, desde la codificación y el diseño hasta la gestión de contenidos y la administración del servidor web.</p>
+               <a href="#" class="cta">Entra al curso</a>
+            </div>
+
+            <figure class="knowledge__picture">
+               <img src="./images/macbook.png" alt="macbook" class="knowledge__img">
+            </figure>
+         </div>
+      </section>
+
+      <a name="team"></a>
+      <section class="container team">
+         <h2 class="subtitle">Nuestro Equipo</h2>
+         <p class="team__paragraph">El equipo de Desarrollo Web lo integra personas capaces de enseñar HTML 5, CSS 3, JavaScript y más de una manera facil e intuitiva</p>
+
+         <div class="team__main">
+            <article class="team__card">
+               <img src="./images/face.jpg" alt="imagen de mujer" class="team__img">
+               <h3>Ana Manrique</h3>
+               <p class="team__paragraph">Desarrollador Frontend</p>
+               <p class="team__paragraph">Experta en HTML y CSS</p>
+            </article>
+
+            <article class="team__card">
+               <img src="./images/face3.jpg" alt="foto de joven" class="team__img">
+               <h3>Luis Barnales</h3>
+               <p class="team__paragraph">Desarrollador FullStack</p>
+               <p class="team__paragraph">Experto en JavaScript y TypeScript</p>
+            </article>
+
+            <article class="team__card">
+               <img src="./images/face2.jpg" alt="fotografia de una joven" class="team__img">
+               <h3>Martha Barrientos</h3>
+               <p class="team__paragraph">Desarrollador Frontend</p>
+               <p class="team__paragraph">Experta en React</p>
+            </article>
+         </div>
+      </section>
+
+      <section class="questions">
+         <section class="questions__offer">
+            <h2 class="subtitle">¿Estas listo para aprender Desarrollo Web?</h2>
+            <p class="questions__copy">Listo para aprender a realizar paginas web completamente responsivas y funcionales con grandes maestros que te enseñaran a dominarlo. Aprende con nosotros, iniciando sesión en la plataforma.</p>
+            <a href="#" class="cta">Aprende ahora</a>
+         </section>
+      </section>
+
+      <a name="contact"></a>
+      <section class="contact container">
+         <div class="contact__container">
+            <div class="contact_texts">
+               <h2 class="subtitle">Contacto</h2>
+               <p class="knowledge__paragraph">Contáctenos si tiene alguna duda o sugerencia sobre nosotros o acerca del curso.</p>
+            </div>
+            <div class="contact_form">
+               <form action="https://formspree.io/f/xbjbjowq" method="POST">
+                  <input type="text" placeholder="Nombre" class="footer__input" name="name" required>
+                  <input type="email" placeholder="Email" class="footer__input" name="email" required>
+                  <input type="text" placeholder="Asunto" class="footer__input" name="affair" required>
+                  <textarea name="message" placeholder="Mensaje" 
+                  class="footer__input" required></textarea>
+                  <input type="submit" value="Enviar" class="footer__submit">
+               </form>
+            </div>
+         </div>
+      </section>
+   </main>
+
+   <footer class="footer">
+      <section class="footer__container container">
+         <nav class="nav nav--footer">
+            <h2 class="footer__title">Desarrollo Web.</h2>
+            <ul class="nav__link nav__link--footer">
+               <li class="nav__items">
+                  <a href="#inicio" class="nav__links">Inicio</a>
+               </li>
+               <li class="nav__items">
+                  <a href="#about" class="nav__links">Acerca de</a>
+               </li>
+               <li class="nav__items">
+                  <a href="#team" class="nav__links">Equipo</a>
+               </li>
+               <li class="nav__items">
+                  <a href="#contact" class="nav__links">Contacto</a>
+               </li>
+            </ul>
+         </nav>
+         
+         <form class="footer__form" action="https://formspree.io/f/xbjbjowq" method="POST">
+            <h2 class="footer__newsletter">Suscribete a la newsletter</h2>
+            <div class="footer__inputs">
+               <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
+               <input type="submit" value="Suscribete" class="footer__submit">
+            </div>
+         </form>
+      </section>
+
+      <section class="footer__copy container">
+         <div class="footer__social">
+            <a href="#"><i class="fa-brands fa-square-facebook footer__icon"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram footer__icon"></i></a>
+            <a href="#"><i class="fa-brands fa-square-twitter footer__icon"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube footer__icon"></i></i></a>
+         </div>
+
+         <h3 class="footer__copyright">&copy; 2022 Desarrollo Web | Desarrollado por Cristhian Mamani </h3>
+      </section>
+   </footer>
+
+   <script src="./js/menu.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+   <script src="https://kit.fontawesome.com/efed79780a.js" crossorigin="anonymous"></script>
+   <script src="js/swiper.js"></script>
+</body>
+</html>
